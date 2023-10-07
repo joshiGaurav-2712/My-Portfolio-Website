@@ -1,0 +1,346 @@
+:root {
+    scroll-behavior: smooth;
+}
+
+body {
+    /* background: url(./images/bg\ \(2\).jpg);  */
+
+
+    background-color: rgb(0, 0, 33);
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    color: white;
+
+    /* width: 100%;
+    height: 100%; */
+    /* padding-top: 0;
+    
+    overflow: hidden; */
+
+}
+
+header {
+    background-color: rgb(18, 18, 62);
+    padding: 20px;
+    width: 100vw;
+    
+
+
+
+
+
+}
+
+.header nav {
+    display: flex;
+    
+
+    justify-content: space-evenly;
+}
+
+header.header a {
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+
+}
+
+header.header a:hover {
+    text-decoration: underline;
+
+}
+
+section.about {
+    padding: 10px;
+
+    font-size: larger;
+}
+
+section.about h3 {
+    line-height: 0;
+}
+
+section.about span#element {
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 4px white;
+    font-size: xx-large;
+
+}
+
+
+section.about h2 {
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: underline wavy;
+}
+
+section.about p {
+    line-height: 1;
+
+}
+
+/* section.about div#imgdiv {
+    display: grid;
+    place-items: center;
+
+} */
+
+section.about img {
+
+    float: right;
+    height: 180px;
+    width: 180px;
+    margin-right: 15px;
+
+
+
+    border-radius: 50%;
+
+}
+
+section.about button {
+    cursor: pointer;
+    border-radius: 20px;
+    /* background-color: rgb(228, 228, 192); */
+    background-image: radial-gradient(circle 975px at 2.6% 48.3%, rgba(0, 8, 120, 1) 0%, rgba(95, 184, 224, 1) 99.7%);
+    /* color: rgb(14, 13, 13); */
+    color: white;
+    font-size: medium;
+    border-style: solid;
+    padding: 5px;
+    border-color: azure;
+    transition: all ease 0.5s;
+}
+section.about button:hover{
+    box-shadow: 5px 5px 10px white;
+}
+
+
+
+section.skills h2 {
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: underline wavy;
+}
+
+.skills .item {
+    padding: 10px;
+
+}
+
+.skills .item-text {
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+    font-size: larger;
+    position: relative;
+}
+
+.skills .item-text .w-90 {
+    margin-left: 85%;
+}
+
+.skills .item-text .w-85 {
+    margin-left: 80%;
+}
+
+.skills .item-text .w-80 {
+    margin-left: 75%;
+}
+
+
+
+
+.skills .item-text .w-75 {
+    margin-left: 70%;
+}
+
+
+
+
+.progress {
+    border-radius: 10px;
+    width: 100%;
+    height: 15px;
+    background-color: white;
+
+    overflow: hidden;
+}
+
+.progress-bar {
+    background-color: rgb(174, 205, 128);
+    height: 100%;
+
+}
+
+.progress-bar.w-90 {
+    width: 90%;
+
+}
+
+.progress-bar.w-85 {
+    width: 85%;
+
+}
+
+.progress-bar.w-80 {
+    width: 80%;
+
+}
+
+.progress-bar.w-80 {
+    width: 80%;
+
+}
+
+.progress-bar.w-90 {
+    width: 90%;
+
+}
+
+.progress-bar.w-80 {
+    width: 80%;
+
+}
+
+.progress-bar.w-75 {
+    width: 75%;
+
+}
+
+.progress-bar.w-90 {
+    width: 90%;
+
+}
+
+.progress-bar.w-85 {
+    width: 85%;
+
+}
+
+@media screen and (min-width: 768px) {
+    .skills .row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+        margin-right: 20px;
+    }
+}
+
+
+section.projects h2 {
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: underline wavy;
+}
+
+section.projects {
+    padding: 10px;
+}
+
+section.projects img#uar {
+    float: left;
+    height: 220px;
+    width: 30%
+        /* border-radius: 50%; */
+}
+
+section.projects p#ar {
+    font-size: large;
+}
+
+section.projects img#wj {
+    float: right;
+    height: 240px;
+    width: 20%
+}
+
+section.projects p#jp {
+    font-size: large;
+}
+
+section.projects img#car {
+    float: left;
+}
+
+section.projects p#cp {
+    font-size: large;
+}
+
+section.contacts h2 {
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: underline wavy;
+}
+
+section.contacts {
+    padding: 10px;
+
+}
+
+section.contacts label {
+    font-size: larger;
+}
+
+section.contacts input#name,
+input#mail {
+    width: 87%;
+    height: 50px;
+    font-size:medium;
+    border: none;
+
+    
+
+}
+
+section.contacts textarea#msg {
+    width: 98%;
+    height: 50px;
+   font-size: large;
+    border: none;
+
+}
+
+section.contacts input#sb,
+input#rb {
+    width: 99%;
+    padding: 6px;
+    color: rgb(82, 81, 81);
+    background-color: rgb(219, 231, 245);
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    font-size: medium;
+ 
+    border: none;
+
+}
+
+section.contacts div.sociallinks {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+section.contacts a {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+
+footer {
+
+    width: 100vw;
+
+
+}
+
+footer.footer p {
+    text-align: center;
+    background-color: #304146;
+
+    padding: 8px;
+    margin-bottom: 0;
+    font-size: large;
+}
