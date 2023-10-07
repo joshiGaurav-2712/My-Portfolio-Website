@@ -1,5 +1,5 @@
 About My Portfolio
-This portfolio website is a showcase of my participations, crafted using HTML, CSS, and JavaScript.
+This portfolio website is a showcase of my participations, crafted using HTML, CSS, and JavaScript.This is my first task at Bharat Intern Virtual Internship.
 
 Features
 About Me: Get to know me, my background, and interests.
